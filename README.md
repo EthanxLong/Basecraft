@@ -2,6 +2,8 @@
 
 This project is just me trying to mimic Minecraft in React.
 
+DEMO: https://reliable-medovik-2ed058.netlify.app/
+
 ## How to play?
 
 Currently it has 5 types of blocks: Grass, Wood, Log, Glass and Dirt.
