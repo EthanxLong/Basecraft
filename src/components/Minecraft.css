@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('./Minecraftia-Regular.ttf') format('truetype');
+}
+
+.version-info {
+    font-family: 'Minecraftia', sans-serif;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    font-size: 16px;
+    color: white; /* Adjust based on your background */
+    z-index: 1001; /* Ensures it's visible above other content */
+}
+
+.menu.how-to-play-background {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    position: fixed; /* Make sure it covers the whole screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-content {
+    text-align: center;
+    max-width: 600px; /* Adjust based on your content's size */
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* Background color for the content */
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #ff0000; /* Red background for visibility */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 50%; /* Circular button */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+.how-to-play {
+    font-family: 'Minecraftia-Regular', sans-serif;
+}
+
+/* Center the image */
+.how-to-play img {
+    display: block;
+    margin: 0 auto;
+}
